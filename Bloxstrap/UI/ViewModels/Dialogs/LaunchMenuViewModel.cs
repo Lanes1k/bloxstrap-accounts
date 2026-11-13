@@ -22,7 +22,7 @@ namespace Bloxstrap.UI.ViewModels.Installer
                 Account? account = AccountManager.ActiveAccount;
 
                 if (account is null)
-                    return "Не выбран — используется текущий вход Roblox";
+                    return "Текущий вход Roblox";
 
                 return String.IsNullOrEmpty(account.DisplayName)
                     ? account.Username
