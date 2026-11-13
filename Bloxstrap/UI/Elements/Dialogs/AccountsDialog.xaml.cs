@@ -31,7 +31,6 @@ namespace Bloxstrap.UI.Elements.Dialogs
 
             AccountListScroller.Visibility = hasAccounts ? Visibility.Visible : Visibility.Collapsed;
             EmptyState.Visibility = hasAccounts ? Visibility.Collapsed : Visibility.Visible;
-            RobloxRunningHint.Visibility = AccountManager.IsRobloxRunning ? Visibility.Visible : Visibility.Collapsed;
         }
 
         private void OnAccountClicked(object sender, MouseButtonEventArgs e)
@@ -45,6 +44,22 @@ namespace Bloxstrap.UI.Elements.Dialogs
         private void OnAddAccountClicked(object sender, RoutedEventArgs e)
         {
             new AddAccountDialog { Owner = this }.ShowDialog();
+            RefreshState();
+        }
+
+        private void OnLaunchAccountClicked(object sender, RoutedEventArgs e)
+        {
+            if ((sender as FrameworkElement)?.DataContext is not Account account)
+                return;
+
+            if (!AccountManager.Launch(account, out string? error))
+            {
+                if (!String.IsNullOrEmpty(error))
+                    Frontend.ShowMessageBox(error, MessageBoxImage.Error);
+
+                return;
+            }
+
             RefreshState();
         }
 

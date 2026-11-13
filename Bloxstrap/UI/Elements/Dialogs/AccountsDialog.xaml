@@ -46,17 +46,8 @@
                 Margin="0,4,0,0"
                 FontSize="14"
                 Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-                Text="Выбери аккаунт — Bloxstrap запустит Roblox именно с ним."
+                Text="Запускай несколько аккаунтов одновременно — у каждого будет своё окно Roblox."
                 TextWrapping="Wrap" />
-
-            <TextBlock
-                x:Name="RobloxRunningHint"
-                Margin="0,6,0,0"
-                FontSize="12"
-                Foreground="{DynamicResource SystemFillColorCautionBrush}"
-                Text="Roblox сейчас запущен — закрой его, чтобы смена аккаунта применилась."
-                TextWrapping="Wrap"
-                Visibility="Collapsed" />
 
             <ScrollViewer
                 x:Name="AccountListScroller"
@@ -90,6 +81,7 @@
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto" />
                                         <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
                                         <ColumnDefinition Width="Auto" />
                                         <ColumnDefinition Width="Auto" />
                                     </Grid.ColumnDefinitions>
@@ -147,6 +139,15 @@
 
                                     <ui:Button
                                         Grid.Column="3"
+                                        Margin="0,0,6,0"
+                                        VerticalAlignment="Center"
+                                        Click="OnLaunchAccountClicked"
+                                        Content="Запустить"
+                                        Icon="Play24"
+                                        ToolTip="Запустить ещё один Roblox с этим аккаунтом" />
+
+                                    <ui:Button
+                                        Grid.Column="4"
                                         VerticalAlignment="Center"
                                         Click="OnDeleteAccountClicked"
                                         Icon="Delete24"

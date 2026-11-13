@@ -140,6 +140,53 @@ namespace Bloxstrap.Accounts
         }
 
         /// <summary>
+        /// Switches the Roblox client to this account and starts another client instance.
+        /// </summary>
+        public static bool Launch(Account account, out string? error)
+        {
+            error = null;
+
+            string cookie = account.Cookie;
+
+            if (String.IsNullOrEmpty(cookie))
+            {
+                error = "Cookie этого аккаунта повреждён. Добавь аккаунт заново.";
+                return false;
+            }
+
+            if (!RobloxCookieStore.WriteCookie(cookie))
+            {
+                error = "Не удалось записать cookie Roblox. Проверь права доступа к папке Roblox.";
+                return false;
+            }
+
+            account.LastUsedAt = DateTime.UtcNow;
+            Store.Prop.SelectedUserId = account.UserId;
+            Save();
+
+            foreach (var item in Accounts)
+                item.NotifyActiveChanged();
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = Paths.Process,
+                    Arguments = "-player"
+                });
+            }
+            catch (Exception ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to launch Roblox");
+                App.Logger.WriteException(LOG_IDENT, ex);
+                error = "Не удалось запустить Roblox.";
+                return false;
+            }
+
+            return true;
+        }
+
+        /// <summary>
         /// Opens the Roblox client window so the user can sign in, then captures the cookie
         /// the client stores after a successful login.
         /// </summary>

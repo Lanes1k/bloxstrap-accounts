@@ -20,6 +20,7 @@ using System.Windows.Shell;
 using Microsoft.Win32;
 
 using Bloxstrap.AppData;
+using Bloxstrap.MultiInstance;
 using Bloxstrap.RobloxInterfaces;
 using Bloxstrap.UI.Elements.Bootstrapper.Base;
 
@@ -560,10 +561,17 @@ namespace Bloxstrap
 
             SetStatus(Strings.Bootstrapper_Status_Starting);
 
+            string launchArgs = _launchCommandLine;
+
+            // Starting the client without arguments just resumes an already running app window;
+            // a deeplink launch starts a new instance.
+            if (_launchMode == LaunchMode.Player && String.IsNullOrEmpty(launchArgs))
+                launchArgs = MultiInstanceManager.BuildHomeLaunchUrl();
+
             var startInfo = new ProcessStartInfo()
             {
                 FileName = AppData.ExecutablePath,
-                Arguments = _launchCommandLine,
+                Arguments = launchArgs,
                 WorkingDirectory = AppData.Directory
             };
 
@@ -605,6 +613,9 @@ namespace Bloxstrap
             };
 
             // v2.2.0 - byfron will trip if we keep a process handle open for over a minute, so we're doing this now
+            if (_launchMode == LaunchMode.Player)
+                MultiInstanceManager.PrepareForLaunch();
+
             try
             {
                 using var process = Process.Start(startInfo)!;
