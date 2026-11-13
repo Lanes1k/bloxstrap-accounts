@@ -6,6 +6,8 @@ using System.Windows.Threading;
 
 using Microsoft.Win32;
 
+using Bloxstrap.Accounts;
+
 namespace Bloxstrap
 {
     /// <summary>
@@ -376,6 +378,7 @@ namespace Bloxstrap
                 Settings.Load();
                 State.Load();
                 FastFlags.Load();
+                AccountManager.Load();
 
                 if (!Locale.SupportedLocales.ContainsKey(Settings.Prop.Locale))
                 {
