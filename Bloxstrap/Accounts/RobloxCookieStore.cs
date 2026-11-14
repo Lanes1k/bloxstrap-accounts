@@ -11,7 +11,6 @@ namespace Bloxstrap.Accounts
     internal static class RobloxCookieStore
     {
         private const string LOG_IDENT = "RobloxCookieStore";
-        private const string CookieName = ".ROBLOSECURITY";
 
         private static readonly Regex AuthCookieRegex = new(@"\t\.ROBLOSECURITY\t([^\r\n;]+)", RegexOptions.Compiled);
 
@@ -77,45 +76,6 @@ namespace Bloxstrap.Accounts
         }
 
         /// <summary>
-        /// Writes the given .ROBLOSECURITY cookie into the Roblox client's cookie store,
-        /// keeping any other cookies that are already there.
-        /// </summary>
-        public static bool WriteCookie(string cookie)
-        {
-            try
-            {
-                string plaintext = ReadPlaintext() ?? CreateDefaultCookieList();
-
-                var lines = plaintext
-                    .Split('\n')
-                    .Where(line => !line.Contains($"\t{CookieName}\t", StringComparison.Ordinal))
-                    .Where(line => !String.IsNullOrWhiteSpace(line))
-                    .ToList();
-
-                lines.Add($"#HttpOnly_.roblox.com\tTRUE\t/\tTRUE\t1817995500\t{CookieName}\t{cookie}");
-
-                byte[] encrypted = ProtectedData.Protect(
-                    Encoding.UTF8.GetBytes(String.Join("\n", lines)),
-                    null,
-                    DataProtectionScope.CurrentUser
-                );
-
-                var file = new CookiesFile { Data = Convert.ToBase64String(encrypted) };
-
-                Directory.CreateDirectory(Path.GetDirectoryName(CookiesPath)!);
-                File.WriteAllText(CookiesPath, JsonSerializer.Serialize(file));
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-                App.Logger.WriteLine(LOG_IDENT, "Failed to write the Roblox cookie file");
-                App.Logger.WriteException(LOG_IDENT, ex);
-                return false;
-            }
-        }
-
-        /// <summary>
         /// Writes a decrypted cookie list (Netscape format) back to the Roblox cookie store as-is.
         /// </summary>
         public static bool WritePlaintext(string plaintext)
@@ -158,15 +118,6 @@ namespace Bloxstrap.Accounts
                 App.Logger.WriteLine(LOG_IDENT, "Failed to remove the Roblox cookie file");
                 App.Logger.WriteException(LOG_IDENT, ex);
             }
-        }
-
-        private static string CreateDefaultCookieList()
-        {
-            string guestData = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
-            string trackerData = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
-
-            return $"#HttpOnly_.roblox.com\tTRUE\t/\tFALSE\t0\tGuestData\t{guestData}\n" +
-                   $"#HttpOnly_.roblox.com\tTRUE\t/\tFALSE\t0\tRBXEventTrackerV2\t{trackerData}";
         }
     }
 }

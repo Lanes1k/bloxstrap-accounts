@@ -241,11 +241,6 @@ namespace Bloxstrap
 
             // start bootstrapper and show the bootstrapper modal if we're not running silently
             App.Logger.WriteLine(LOG_IDENT, "Initializing bootstrapper");
-
-            // switch the Roblox client to the account picked in the launch menu
-            if (launchMode == LaunchMode.Player)
-                AccountManager.ApplyActiveAccount();
-
             App.Bootstrapper = new Bootstrapper(launchMode);
             IBootstrapperDialog? dialog = null;
 

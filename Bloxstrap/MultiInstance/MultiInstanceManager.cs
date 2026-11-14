@@ -31,13 +31,20 @@ namespace Bloxstrap.MultiInstance
         /// A deeplink launch, as opposed to starting the client without arguments, which makes an
         /// already running client "resume" instead of a new one starting.
         /// </summary>
-        public static string BuildHomeLaunchUrl()
+        public static string BuildHomeLaunchUrl(string? authenticationTicket = null)
         {
             long launchTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+            int browserTrackerId = Random.Shared.Next(10_000_000, 1_500_000_000);
 
-            return "roblox-player:1" +
-                   "+launchmode:app" +
+            string url = "roblox-player:1" +
+                         "+launchmode:app";
+
+            if (!String.IsNullOrEmpty(authenticationTicket))
+                url += $"+gameinfo:{authenticationTicket}";
+
+            return url +
                    $"+launchtime:{launchTime}" +
+                   $"+browsertrackerid:{browserTrackerId}" +
                    "+robloxLocale:en_us" +
                    "+gameLocale:en_us" +
                    "+channel:" +

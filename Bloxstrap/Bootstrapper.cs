@@ -19,6 +19,7 @@ using System.Windows.Shell;
 
 using Microsoft.Win32;
 
+using Bloxstrap.Accounts;
 using Bloxstrap.AppData;
 using Bloxstrap.MultiInstance;
 using Bloxstrap.RobloxInterfaces;
@@ -563,10 +564,16 @@ namespace Bloxstrap
 
             string launchArgs = _launchCommandLine;
 
-            // Starting the client without arguments just resumes an already running app window;
-            // a deeplink launch starts a new instance.
-            if (_launchMode == LaunchMode.Player && String.IsNullOrEmpty(launchArgs))
-                launchArgs = MultiInstanceManager.BuildHomeLaunchUrl();
+            if (_launchMode == LaunchMode.Player)
+            {
+                // Sign the client in as the account picked in the menu (if any)
+                launchArgs = AccountManager.BuildAccountLaunchArgs(launchArgs);
+
+                // Starting the client without arguments just resumes an already running app window;
+                // a deeplink launch starts a new instance.
+                if (String.IsNullOrEmpty(launchArgs))
+                    launchArgs = MultiInstanceManager.BuildHomeLaunchUrl();
+            }
 
             var startInfo = new ProcessStartInfo()
             {

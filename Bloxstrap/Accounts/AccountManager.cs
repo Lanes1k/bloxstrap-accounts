@@ -1,5 +1,7 @@
 using System.Collections.ObjectModel;
 
+using Bloxstrap.MultiInstance;
+
 namespace Bloxstrap.Accounts
 {
     /// <summary>
@@ -37,30 +39,6 @@ namespace Bloxstrap.Accounts
 
             foreach (var item in Accounts)
                 item.NotifyActiveChanged();
-        }
-
-        /// <summary>
-        /// Writes the active account's cookie into the Roblox client so it is used on the next launch.
-        /// </summary>
-        public static bool ApplyActiveAccount()
-        {
-            Account? account = ActiveAccount;
-
-            if (account is null || String.IsNullOrEmpty(account.Cookie))
-                return true;
-
-            App.Logger.WriteLine(LOG_IDENT, $"Applying account cookie for {account.Username}");
-
-            if (!RobloxCookieStore.WriteCookie(account.Cookie))
-            {
-                App.Logger.WriteLine(LOG_IDENT, "Failed to apply the active account cookie");
-                return false;
-            }
-
-            account.LastUsedAt = DateTime.UtcNow;
-            Save();
-
-            return true;
         }
 
         /// <summary>
@@ -140,23 +118,15 @@ namespace Bloxstrap.Accounts
         }
 
         /// <summary>
-        /// Switches the Roblox client to this account and starts another client instance.
+        /// Starts another Roblox client signed in as this account.
         /// </summary>
         public static bool Launch(Account account, out string? error)
         {
             error = null;
 
-            string cookie = account.Cookie;
-
-            if (String.IsNullOrEmpty(cookie))
+            if (String.IsNullOrEmpty(account.Cookie))
             {
                 error = "Cookie этого аккаунта повреждён. Добавь аккаунт заново.";
-                return false;
-            }
-
-            if (!RobloxCookieStore.WriteCookie(cookie))
-            {
-                error = "Не удалось записать cookie Roblox. Проверь права доступа к папке Roblox.";
                 return false;
             }
 
@@ -184,6 +154,92 @@ namespace Bloxstrap.Accounts
             }
 
             return true;
+        }
+
+        /// <summary>
+        /// Turns launch arguments into a request that signs the client in as the active account:
+        /// a Roblox authentication ticket goes into gameinfo, so the client starts logged in
+        /// instead of showing the sign-up page.
+        /// </summary>
+        public static string BuildAccountLaunchArgs(string launchArgs)
+        {
+            Account? account = ActiveAccount;
+
+            if (account is null)
+                return launchArgs;
+
+            string cookie = account.Cookie;
+
+            if (String.IsNullOrEmpty(cookie))
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Active account has no usable cookie");
+                return launchArgs;
+            }
+
+            RefreshAccountInfo(account);
+
+            string? ticket;
+
+            try
+            {
+                using var timeout = new CancellationTokenSource(TimeSpan.FromSeconds(10));
+                ticket = RobloxAuth.GetAuthenticationTicketAsync(cookie, timeout.Token).GetAwaiter().GetResult();
+            }
+            catch (Exception ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to request an authentication ticket");
+                App.Logger.WriteException(LOG_IDENT, ex);
+                ticket = null;
+            }
+
+            if (String.IsNullOrEmpty(ticket))
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Could not get an authentication ticket, keeping the original launch arguments");
+                return launchArgs;
+            }
+
+            account.LastUsedAt = DateTime.UtcNow;
+            Save();
+
+            if (String.IsNullOrWhiteSpace(launchArgs))
+                return MultiInstanceManager.BuildHomeLaunchUrl(ticket);
+
+            if (launchArgs.StartsWith("roblox-player:", StringComparison.OrdinalIgnoreCase))
+                return Regex.Replace(launchArgs, "gameinfo:[^+]*", $"gameinfo:{ticket}", RegexOptions.IgnoreCase);
+
+            return launchArgs;
+        }
+
+        private static void RefreshAccountInfo(Account account)
+        {
+            try
+            {
+                using var timeout = new CancellationTokenSource(TimeSpan.FromSeconds(10));
+                AuthenticatedUser? user = GetAuthenticatedUserAsync(account.Cookie, timeout.Token).GetAwaiter().GetResult();
+
+                if (user is null || user.Id <= 0)
+                    return;
+
+                if (account.UserId == user.Id && account.Username == user.Name && account.DisplayName == user.DisplayName)
+                    return;
+
+                App.Logger.WriteLine(LOG_IDENT, $"Updating account info: {account.Username} -> {user.Name}");
+
+                account.UserId = user.Id;
+                account.Username = user.Name;
+                account.DisplayName = user.DisplayName;
+
+                Store.Prop.SelectedUserId = user.Id;
+                Save();
+
+                foreach (var item in Accounts)
+                    item.NotifyActiveChanged();
+            }
+            catch (Exception ex)
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Failed to refresh the account info");
+                App.Logger.WriteException(LOG_IDENT, ex);
+            }
         }
 
         /// <summary>
