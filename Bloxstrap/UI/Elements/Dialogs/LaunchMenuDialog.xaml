@@ -47,7 +47,20 @@
                     <Image Grid.Column="0" Width="64" Height="64" Source="pack://application:,,,/Bloxstrap.ico" RenderOptions.BitmapScalingMode="HighQuality" />
                     <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center">
                         <TextBlock Text="Bloxstrap" FontSize="24" />
-                        <TextBlock Text="{Binding Version, Mode=OneTime}" VerticalAlignment="Bottom" FontSize="12" Foreground="{DynamicResource TextFillColorTertiaryBrush}" />
+                        <StackPanel Margin="0,5,0,0" Orientation="Horizontal">
+                            <TextBlock
+                                VerticalAlignment="Center"
+                                FontSize="12"
+                                Foreground="{DynamicResource TextFillColorTertiaryBrush}"
+                                Text="{Binding Version, Mode=OneTime}" />
+                            <TextBlock
+                                Margin="7,1,0,0"
+                                VerticalAlignment="Center"
+                                FontSize="10"
+                                Foreground="{DynamicResource AccentFillColorDefaultBrush}"
+                                Opacity="0.85"
+                                Text="accounts" />
+                        </StackPanel>
                     </StackPanel>
                 </Grid>
 
