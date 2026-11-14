@@ -1425,4 +1425,85 @@ Bloxstrap 的安装根目录为「{1}」。</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>由于 [FFlag 白名单更新]({0})，大多数自定义 Fast Flags 将不会对 Roblox 游戏本体产生任何效果。</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>同时运行多个账号，每个账号使用独立的 Roblox 窗口。</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>使用此账号打开另一个 Roblox 客户端</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>移除账号</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>尚无账号</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>通过 Roblox 登录或 Cookie 添加账号。</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>添加账号</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox 窗口</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>登录或创建账号</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>粘贴 .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>账号 Cookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>在此粘贴完整的 .ROBLOSECURITY Cookie。</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>通过 Roblox 登录后，启动器会获取 Cookie。保存的 Cookie 会在此电脑上加密。</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>当前 Roblox 登录</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie 无效、不完整或已过期。请使用有效的 Cookie 重新添加账号。</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>无法连接到 Roblox。请检查网络连接后重试。</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>无法启动 Roblox。请确认已安装。</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>登录其他账号前，请先关闭 Roblox。</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>正在启动 Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>正在验证登录…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>登录失败。请重试或通过 Cookie 添加账号。</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox 正在运行。是否关闭以登录其他账号？</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>无法添加账号。</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>移除账号 {0}？其保存的 Cookie 将从此电脑中删除。</value>
+  </data>
 </root>

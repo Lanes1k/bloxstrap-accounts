@@ -1407,4 +1407,85 @@ Palataan oletukseen {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>[Fast Flag allowlist update]({0}):n takia useimmat mukautetut FastFlagit eivät vaikuta Robloxiin.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Tili</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Tilit</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Käytä useita tilejä, jokaista omassa Roblox-ikkunassaan.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Käynnistä</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Avaa toinen Roblox-asiakas tällä tilillä</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Poista tili</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Ei vielä tilejä</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Lisää tili Robloxin kautta tai evästeellä.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Lisää tili</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox-ikkuna</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Kirjaudu tai luo tili</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Eväste</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Liitä .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Tilin eväste</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Liitä koko .ROBLOSECURITY-eväste tähän.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Roblox-kirjautumisen jälkeen käynnistin hakee evästeen. Tallennetut evästeet salataan tällä tietokoneella.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Nykyinen Roblox-kirjautuminen</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Eväste on virheellinen, puutteellinen tai vanhentunut. Lisää tili uudelleen kelvollisella evästeellä.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Robloxiin ei saatu yhteyttä. Tarkista yhteys ja yritä uudelleen.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Robloxia ei voitu käynnistää. Varmista, että se on asennettu.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Sulje Roblox ennen toiselle tilille kirjautumista.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Käynnistetään Robloxia…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Vahvistetaan kirjautumista…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Kirjautuminen epäonnistui. Yritä uudelleen tai lisää tili evästeellä.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox on käynnissä. Suljetaanko se toiselle tilille kirjautumista varten?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Tiliä ei voitu lisätä.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Poistetaanko tili {0}? Sen tallennettu eväste poistetaan tältä tietokoneelta.</value>
+  </data>
 </root>

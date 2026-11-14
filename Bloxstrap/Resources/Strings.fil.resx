@@ -1403,4 +1403,85 @@ Isarado muna ang kahit anong application na maaaring gamitin ang mga file ng Rob
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Dahil sa [Fast Flag allowlist update]({0}), halos lahat ng mga custom Fast Flags ay walang epekto sa Roblox player.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Mga account</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Magpatakbo ng maraming account, bawat isa sa sariling Roblox window.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Ilunsad</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Magbukas ng isa pang Roblox client gamit ang account na ito</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Alisin ang account</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Wala pang mga account</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Magdagdag ng account sa pamamagitan ng Roblox o cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Magdagdag ng account</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox window</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Mag-sign in o gumawa ng account</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>I-paste ang .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Cookie ng account</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>I-paste dito ang buong .ROBLOSECURITY cookie.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Pagkatapos mag-sign in sa Roblox, kukunin ng launcher ang cookie. Naka-encrypt sa PC na ito ang mga naka-save na cookie.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Kasalukuyang Roblox login</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Hindi wasto, kulang, o nag-expire ang cookie. Idagdag muli ang account gamit ang wastong cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Hindi makakonekta sa Roblox. Suriin ang koneksyon at subukang muli.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Hindi mailunsad ang Roblox. Tiyaking naka-install ito.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Isara ang Roblox bago mag-sign in sa ibang account.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Sinisimulan ang Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Bineberipika ang pag-sign in…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Hindi makapag-sign in. Subukang muli o idagdag ang account gamit ang cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Bukas ang Roblox. Isara ito para mag-sign in sa ibang account?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Hindi maidagdag ang account.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Alisin ang account na {0}? Tatanggalin sa PC na ito ang naka-save nitong cookie.</value>
+  </data>
 </root>

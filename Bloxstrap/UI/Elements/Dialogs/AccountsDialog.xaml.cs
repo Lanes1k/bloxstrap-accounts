@@ -71,7 +71,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
             string name = String.IsNullOrEmpty(account.DisplayName) ? account.Username : account.DisplayName;
 
             var result = Frontend.ShowMessageBox(
-                $"Удалить аккаунт {name}? Cookie будет удалён с этого ПК.",
+                String.Format(Strings.Accounts_DeleteConfirm, name),
                 MessageBoxImage.Warning,
                 MessageBoxButton.YesNo
             );

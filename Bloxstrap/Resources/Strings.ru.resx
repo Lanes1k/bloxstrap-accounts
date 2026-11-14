@@ -1405,4 +1405,85 @@ Bloxstrap был установлен в "{1}".</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Из-за [Обновления разрешённого списка Fast Flag'ов]({0}), большинство Fast Flag'ов не повлияют на Roblox.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Аккаунт</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Аккаунты</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Запускайте несколько аккаунтов — каждый в своём окне Roblox.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Открыть ещё один клиент Roblox с этим аккаунтом</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Удалить аккаунт</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Аккаунтов пока нет</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Добавьте аккаунт через окно Roblox или с помощью cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Добавить аккаунт</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Окно Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Войти или создать аккаунт</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Вставить .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Cookie аккаунта</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Вставьте сюда полный cookie .ROBLOSECURITY.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>После входа через Roblox лаунчер получает cookie. Сохранённые cookie шифруются на этом ПК.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Текущий вход Roblox</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie недействителен, неполный или истёк. Добавьте аккаунт заново с действующим cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Не удалось связаться с Roblox. Проверьте подключение и повторите попытку.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Не удалось запустить Roblox. Убедитесь, что он установлен.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Закройте Roblox перед входом в другой аккаунт.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Запускаем Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Проверяем вход…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Вход не выполнен. Повторите попытку или добавьте аккаунт через cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox запущен. Закрыть его для входа в другой аккаунт?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Не удалось добавить аккаунт.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Удалить аккаунт {0}? Его сохранённый cookie будет удалён с этого ПК.</value>
+  </data>
 </root>

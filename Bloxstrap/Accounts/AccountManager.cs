@@ -66,10 +66,10 @@ namespace Bloxstrap.Accounts
             string cookie = NormalizeCookie(rawCookie);
 
             if (String.IsNullOrEmpty(cookie))
-                return (null, "Вставь cookie вида .ROBLOSECURITY=...");
+                return (null, Strings.Accounts_CookiePlaceholder);
 
             if (cookie.Length < 50)
-                return (null, "Cookie выглядит некорректно. Скопируй его целиком.");
+                return (null, Strings.Accounts_InvalidCookie);
 
             AuthenticatedUser? user;
 
@@ -85,11 +85,11 @@ namespace Bloxstrap.Accounts
             {
                 App.Logger.WriteLine(LOG_IDENT, "Failed to validate cookie");
                 App.Logger.WriteException(LOG_IDENT, ex);
-                return (null, "Не удалось связаться с Roblox. Проверь подключение и попробуй ещё раз.");
+                return (null, Strings.Accounts_NetworkError);
             }
 
             if (user is null || user.Id <= 0)
-                return (null, "Cookie недействителен или истёк. Получи новый и попробуй снова.");
+                return (null, Strings.Accounts_InvalidCookie);
 
             string? avatarUrl = await GetAvatarUrlAsync(user.Id, token);
 
@@ -126,7 +126,7 @@ namespace Bloxstrap.Accounts
 
             if (String.IsNullOrEmpty(account.Cookie))
             {
-                error = "Cookie этого аккаунта повреждён. Добавь аккаунт заново.";
+                error = Strings.Accounts_InvalidCookie;
                 return false;
             }
 
@@ -149,7 +149,7 @@ namespace Bloxstrap.Accounts
             {
                 App.Logger.WriteLine(LOG_IDENT, "Failed to launch Roblox");
                 App.Logger.WriteException(LOG_IDENT, ex);
-                error = "Не удалось запустить Roblox.";
+                error = Strings.Accounts_LaunchError;
                 return false;
             }
 
@@ -249,7 +249,7 @@ namespace Bloxstrap.Accounts
         public static async Task<(Account? Account, string? Error)> CaptureFromRobloxWindowAsync(IProgress<string>? progress, CancellationToken token)
         {
             if (IsRobloxRunning)
-                return (null, "Сначала закрой Roblox, чтобы войти в другой аккаунт.");
+                return (null, Strings.Accounts_CloseRoblox);
 
             // Keep the current session around in case the user cancels the login
             string? originalCookieList = RobloxCookieStore.ReadPlaintext();
@@ -258,12 +258,12 @@ namespace Bloxstrap.Accounts
             // Start the client logged out so a fresh login can be detected
             RobloxCookieStore.Clear();
 
-            progress?.Report("Запускаем Roblox…");
+            progress?.Report(Strings.Accounts_Starting);
 
             if (!TryStartRobloxClient())
             {
                 RestoreCookies(originalCookieList);
-                return (null, "Не удалось запустить Roblox. Проверь, что он установлен.");
+                return (null, Strings.Accounts_LaunchError);
             }
 
             DateTime started = DateTime.UtcNow;
@@ -282,7 +282,7 @@ namespace Bloxstrap.Accounts
 
                     if (!String.IsNullOrEmpty(cookie) && cookie != originalCookie)
                     {
-                        progress?.Report("Проверяем вход…");
+                        progress?.Report(Strings.Accounts_Verifying);
 
                         var (account, _) = await AddFromCookieAsync(cookie, token);
 
@@ -310,7 +310,7 @@ namespace Bloxstrap.Accounts
 
             RestoreCookies(originalCookieList);
 
-            return (null, "Вход не выполнен. Попробуй ещё раз или добавь аккаунт через cookie.");
+            return (null, Strings.Accounts_LoginError);
         }
 
         public static void Remove(Account account)

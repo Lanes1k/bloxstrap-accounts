@@ -34,7 +34,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
             if (AccountManager.IsRobloxRunning)
             {
                 var result = Frontend.ShowMessageBox(
-                    "Roblox уже запущен. Закрыть его и войти в другой аккаунт?",
+                    Strings.Accounts_CloseRobloxConfirm,
                     MessageBoxImage.Question,
                     MessageBoxButton.YesNo
                 );
@@ -77,7 +77,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
 
                 RobloxWindowPanel.Visibility = Visibility.Collapsed;
                 SetCardsEnabled(true);
-                Frontend.ShowMessageBox("Не удалось войти в аккаунт через окно Roblox.", MessageBoxImage.Error);
+                Frontend.ShowMessageBox(Strings.Accounts_LoginError, MessageBoxImage.Error);
             }
         }
 
@@ -96,7 +96,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
                     return;
                 }
 
-                CookieErrorText.Text = error ?? "Не удалось добавить аккаунт.";
+                CookieErrorText.Text = error ?? Strings.Accounts_AddError;
                 CookieErrorText.Visibility = Visibility.Visible;
             }
             catch (Exception ex)
@@ -104,7 +104,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
                 App.Logger.WriteLine("AddAccountDialog::OnAddCookieClicked", "Failed to add an account from a cookie");
                 App.Logger.WriteException("AddAccountDialog::OnAddCookieClicked", ex);
 
-                CookieErrorText.Text = "Не удалось добавить аккаунт.";
+                CookieErrorText.Text = Strings.Accounts_AddError;
                 CookieErrorText.Visibility = Visibility.Visible;
             }
             finally

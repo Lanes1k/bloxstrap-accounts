@@ -1407,4 +1407,85 @@ Använder {1} istället.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Eftersom [Roblox har begränsat vilka Fast Flags som kan användas]({0}) kommer de flesta egna flaggorna inte ha någon påverkan på Roblox-klienten.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Konton</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Kör flera konton, vart och ett i ett eget Roblox-fönster.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Starta</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Öppna en annan Roblox-klient med detta konto</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Ta bort konto</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Inga konton ännu</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Lägg till ett konto via Roblox eller med en cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Lägg till konto</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox-fönster</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Logga in eller skapa ett konto</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Klistra in .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Kontots cookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Klistra in hela .ROBLOSECURITY-cookien här.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Efter inloggning via Roblox hämtar startprogrammet cookien. Sparade cookies krypteras på den här datorn.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Aktuell Roblox-inloggning</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookien är ogiltig, ofullständig eller har gått ut. Lägg till kontot igen med en giltig cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Kunde inte ansluta till Roblox. Kontrollera anslutningen och försök igen.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Kunde inte starta Roblox. Kontrollera att det är installerat.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Stäng Roblox innan du loggar in på ett annat konto.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Startar Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Verifierar inloggning…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Inloggningen misslyckades. Försök igen eller lägg till kontot med en cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox körs. Stäng det för att logga in på ett annat konto?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Kunde inte lägga till kontot.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Ta bort kontot {0}? Dess sparade cookie raderas från den här datorn.</value>
+  </data>
 </root>

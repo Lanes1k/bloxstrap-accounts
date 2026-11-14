@@ -13,7 +13,7 @@ namespace Bloxstrap.UI.ViewModels.Installer
         public string Version => string.Format(Strings.Menu_About_Version, App.Version);
 
         /// <summary>
-        /// Shown under the "Аккаунт" menu entry so the picked account is visible at a glance.
+        /// Shown under the account menu entry so the picked account is visible at a glance.
         /// </summary>
         public string ActiveAccountCaption
         {
@@ -22,7 +22,7 @@ namespace Bloxstrap.UI.ViewModels.Installer
                 Account? account = AccountManager.ActiveAccount;
 
                 if (account is null)
-                    return "Текущий вход Roblox";
+                    return Strings.Accounts_CurrentLogin;
 
                 return String.IsNullOrEmpty(account.DisplayName)
                     ? account.Username

@@ -1406,4 +1406,85 @@ Word ingesteld op de standaard {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Vanwege de [Fast Flag allowlist update]({0}), zullen de meeste aangepaste Fast Flags geen effect hebben op de Roblox speler.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Gebruik meerdere accounts, elk in een eigen Roblox-venster.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Starten</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Open een andere Roblox-client met dit account</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Account verwijderen</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Nog geen accounts</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Voeg een account toe via Roblox of met een cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Account toevoegen</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox-venster</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Inloggen of een account maken</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>.ROBLOSECURITY plakken</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Accountcookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Plak hier de volledige .ROBLOSECURITY-cookie.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Na het inloggen via Roblox haalt de launcher de cookie op. Opgeslagen cookies worden op deze pc versleuteld.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Huidige Roblox-aanmelding</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>De cookie is ongeldig, onvolledig of verlopen. Voeg het account opnieuw toe met een geldige cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Kan geen verbinding maken met Roblox. Controleer je verbinding en probeer het opnieuw.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Kan Roblox niet starten. Controleer of het is geïnstalleerd.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Sluit Roblox voordat je met een ander account inlogt.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Roblox starten…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Aanmelding controleren…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Inloggen mislukt. Probeer het opnieuw of voeg het account toe met een cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox is actief. Sluiten om met een ander account in te loggen?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Kan het account niet toevoegen.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Account {0} verwijderen? De opgeslagen cookie wordt van deze pc verwijderd.</value>
+  </data>
 </root>

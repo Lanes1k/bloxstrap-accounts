@@ -1404,4 +1404,85 @@ Otomatiklen {1}'e alınılıyor.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>[Fast Flag allowlist update]({0}) nedeniyle, çoğu özel Fast Flaglerin Roblox oyuncusu üzerinde hiçbir etkiye sahip olmayacaktır.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Hesap</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Hesaplar</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Her biri ayrı bir Roblox penceresinde olmak üzere birden fazla hesap çalıştırın.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Bu hesapla başka bir Roblox istemcisi aç</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Hesabı kaldır</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Henüz hesap yok</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Roblox üzerinden veya çerez ile bir hesap ekleyin.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Hesap ekle</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox penceresi</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Giriş yap veya hesap oluştur</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Çerez</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>.ROBLOSECURITY yapıştır</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Hesap çerezi</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>.ROBLOSECURITY çerezinin tamamını buraya yapıştırın.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Roblox üzerinden giriş yaptıktan sonra başlatıcı çerezi alır. Kaydedilen çerezler bu bilgisayarda şifrelenir.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Mevcut Roblox oturumu</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Çerez geçersiz, eksik veya süresi dolmuş. Geçerli bir çerez ile hesabı yeniden ekleyin.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Roblox bağlantısı kurulamadı. Bağlantınızı kontrol edip tekrar deneyin.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Roblox başlatılamadı. Yüklü olduğundan emin olun.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Başka bir hesaba giriş yapmadan önce Roblox’u kapatın.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Roblox başlatılıyor…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Giriş doğrulanıyor…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Giriş başarısız. Tekrar deneyin veya hesabı çerez ile ekleyin.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox çalışıyor. Başka bir hesaba giriş yapmak için kapatılsın mı?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Hesap eklenemedi.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>{0} hesabı kaldırılsın mı? Kaydedilen çerezi bu bilgisayardan silinecek.</value>
+  </data>
 </root>

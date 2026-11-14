@@ -1407,4 +1407,85 @@ Bloxstrap 的安裝位置為「{1}」。</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>由於 [Fast Flag 的白名單更新]({0})，大部份的自訂 Fast Flag 將在 Roblox 客戶端上沒有效果。</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>帳戶</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>帳戶</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>同時執行多個帳戶，每個帳戶使用獨立的 Roblox 視窗。</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>啟動</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>使用此帳戶開啟另一個 Roblox 用戶端</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>移除帳戶</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>暫時沒有帳戶</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>透過 Roblox 登入或 Cookie 新增帳戶。</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>新增帳戶</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox 視窗</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>登入或建立帳戶</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>貼上 .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>帳戶 Cookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>在此貼上完整的 .ROBLOSECURITY Cookie。</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>透過 Roblox 登入後，啟動器會取得 Cookie。儲存的 Cookie 會在此電腦上加密。</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>目前的 Roblox 登入</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie 無效、不完整或已過期。請使用有效的 Cookie 重新新增帳戶。</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>無法連線至 Roblox。請檢查網絡連線後重試。</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>無法啟動 Roblox。請確認已安裝。</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>登入其他帳戶前，請先關閉 Roblox。</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>正在啟動 Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>正在驗證登入…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>登入失敗。請重試或透過 Cookie 新增帳戶。</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox 正在執行。是否關閉以登入其他帳戶？</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>無法新增帳戶。</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>移除帳戶 {0}？其儲存的 Cookie 將從此電腦刪除。</value>
+  </data>
 </root>

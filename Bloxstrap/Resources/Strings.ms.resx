@@ -1351,4 +1351,85 @@ Sila tutup sebarang aplikasi yang mungkin menggunakan fail Roblox, dan cuba lagi
   <data name="CustomTheme.Editor.Errors.PreviewFailed" xml:space="preserve">
     <value>Gagal untuk previu tema: {0}</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Akaun</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Akaun</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Jalankan beberapa akaun, setiap satu dalam tetingkap Roblox sendiri.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Lancarkan</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Buka klien Roblox lain dengan akaun ini</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Alih keluar akaun</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Belum ada akaun</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Tambah akaun melalui Roblox atau dengan kuki.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Tambah akaun</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Tetingkap Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Log masuk atau cipta akaun</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Kuki</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Tampal .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Kuki akaun</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Tampal keseluruhan kuki .ROBLOSECURITY di sini.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Selepas log masuk melalui Roblox, pelancar mengambil kuki. Kuki yang disimpan disulitkan pada PC ini.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Log masuk Roblox semasa</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Kuki tidak sah, tidak lengkap atau telah tamat tempoh. Tambah akaun semula dengan kuki yang sah.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Tidak dapat menyambung ke Roblox. Semak sambungan dan cuba lagi.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Tidak dapat melancarkan Roblox. Pastikan ia dipasang.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Tutup Roblox sebelum log masuk ke akaun lain.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Memulakan Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Mengesahkan log masuk…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Log masuk gagal. Cuba lagi atau tambah akaun dengan kuki.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox sedang berjalan. Tutup untuk log masuk ke akaun lain?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Tidak dapat menambah akaun.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Alih keluar akaun {0}? Kuki yang disimpan akan dipadam daripada PC ini.</value>
+  </data>
 </root>

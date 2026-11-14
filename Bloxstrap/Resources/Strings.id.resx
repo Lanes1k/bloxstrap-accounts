@@ -1407,4 +1407,85 @@ Beralih ke {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Karena [Fast Flag allowlist update]({0}), sebagian dari kustom Fast Flags tidak akan berfungsi pada peluncur Roblox.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Akun</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Akun</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Jalankan beberapa akun, masing-masing di jendela Roblox sendiri.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Jalankan</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Buka klien Roblox lain dengan akun ini</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Hapus akun</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Belum ada akun</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Tambahkan akun melalui Roblox atau dengan cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Tambah akun</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Jendela Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Masuk atau buat akun</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Tempel .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Cookie akun</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Tempel seluruh cookie .ROBLOSECURITY di sini.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Setelah masuk melalui Roblox, peluncur mengambil cookie. Cookie tersimpan dienkripsi di PC ini.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Login Roblox saat ini</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie tidak valid, tidak lengkap, atau kedaluwarsa. Tambahkan akun lagi dengan cookie yang valid.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Tidak dapat terhubung ke Roblox. Periksa koneksi dan coba lagi.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Tidak dapat menjalankan Roblox. Pastikan Roblox terinstal.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Tutup Roblox sebelum masuk ke akun lain.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Memulai Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Memverifikasi login…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Login gagal. Coba lagi atau tambahkan akun dengan cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox sedang berjalan. Tutup untuk masuk ke akun lain?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Tidak dapat menambahkan akun.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Hapus akun {0}? Cookie yang tersimpan akan dihapus dari PC ini.</value>
+  </data>
 </root>

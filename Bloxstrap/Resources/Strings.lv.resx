@@ -1408,4 +1408,85 @@ Ir nepieciešama vismaz 5GB brīvas krātuves vietas priekš šīs iespējas.</v
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Dēļ [Fast Flag allowlist atjauninājuma]({0}), lielākajai daļai no pielāgotajiem Fast Flags nebūs efekta uz Roblox spēlētāju.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Konts</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Konti</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Palaidiet vairākus kontus, katru savā Roblox logā.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Palaist</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Atvērt vēl vienu Roblox klientu ar šo kontu</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Noņemt kontu</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Kontu vēl nav</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Pievienojiet kontu ar Roblox vai sīkdatni.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Pievienot kontu</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox logs</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Pierakstīties vai izveidot kontu</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Sīkdatne</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Ielīmēt .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Konta sīkdatne</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Ielīmējiet šeit pilnu .ROBLOSECURITY sīkdatni.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Pēc pierakstīšanās Roblox palaidējs iegūst sīkdatni. Saglabātās sīkdatnes šajā datorā tiek šifrētas.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Pašreizējā Roblox sesija</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Sīkdatne nav derīga, ir nepilnīga vai novecojusi. Pievienojiet kontu vēlreiz ar derīgu sīkdatni.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Neizdevās izveidot savienojumu ar Roblox. Pārbaudiet savienojumu un mēģiniet vēlreiz.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Neizdevās palaist Roblox. Pārliecinieties, ka tas ir instalēts.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Pirms pierakstīšanās citā kontā aizveriet Roblox.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Roblox tiek palaists…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Pierakstīšanās tiek pārbaudīta…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Pierakstīšanās neizdevās. Mēģiniet vēlreiz vai pievienojiet kontu ar sīkdatni.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox darbojas. Aizvērt to, lai pierakstītos citā kontā?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Neizdevās pievienot kontu.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Noņemt kontu {0}? Tā saglabātā sīkdatne tiks dzēsta no šī datora.</value>
+  </data>
 </root>

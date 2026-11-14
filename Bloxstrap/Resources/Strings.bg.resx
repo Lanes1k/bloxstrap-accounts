@@ -1403,4 +1403,85 @@ Bloxstrap е инсталиран в "{1}".</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Поради [актуализацията на списъка с разрешени Fast Flags]({0}), повечето Fast Flags няма да имат ефект върху Roblox.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Акаунт</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Акаунти</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Стартирайте няколко акаунта, всеки в собствен прозорец на Roblox.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Стартирай</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Отваряне на друг клиент Roblox с този акаунт</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Премахване на акаунт</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Все още няма акаунти</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Добавете акаунт чрез Roblox или с бисквитка.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Добавяне на акаунт</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Прозорец на Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Вход или създаване на акаунт</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Бисквитка</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Поставяне на .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Бисквитка на акаунта</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Поставете цялата бисквитка .ROBLOSECURITY тук.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>След вход през Roblox програмата получава бисквитката. Запазените бисквитки се шифроват на този компютър.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Текущ вход в Roblox</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Бисквитката е невалидна, непълна или изтекла. Добавете акаунта отново с валидна бисквитка.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Няма връзка с Roblox. Проверете връзката и опитайте отново.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Roblox не може да се стартира. Уверете се, че е инсталиран.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Затворете Roblox, преди да влезете в друг акаунт.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Стартиране на Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Проверка на входа…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Неуспешен вход. Опитайте отново или добавете акаунта с бисквитка.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox работи. Да се затвори ли за вход в друг акаунт?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Акаунтът не може да бъде добавен.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Премахване на акаунта {0}? Запазената му бисквитка ще бъде изтрита от този компютър.</value>
+  </data>
 </root>

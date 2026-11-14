@@ -1380,4 +1380,85 @@ Alapértelmezés szerint {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>A [Fast Flag engedélyezési lista frissítés]({0}) miatt a legtöbb saját Fast Flag nem lesz hatással a Roblox-ra.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Fiók</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Fiókok</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Használjon több fiókot, mindegyiket külön Roblox-ablakban.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Indítás</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Újabb Roblox-kliens megnyitása ezzel a fiókkal</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Fiók eltávolítása</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Még nincsenek fiókok</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Adjon hozzá fiókot a Robloxon keresztül vagy sütivel.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Fiók hozzáadása</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox-ablak</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Bejelentkezés vagy fiók létrehozása</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Süti</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>.ROBLOSECURITY beillesztése</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Fiók sütije</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Illessze be ide a teljes .ROBLOSECURITY sütit.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>A Roblox-bejelentkezés után az indító lekéri a sütit. A mentett sütiket titkosítva tárolja ezen a számítógépen.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Jelenlegi Roblox-bejelentkezés</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>A süti érvénytelen, hiányos vagy lejárt. Adja hozzá újra a fiókot érvényes sütivel.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Nem sikerült kapcsolódni a Robloxhoz. Ellenőrizze a kapcsolatot, és próbálja újra.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Nem sikerült elindítani a Robloxot. Ellenőrizze, hogy telepítve van-e.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Másik fiókba való bejelentkezés előtt zárja be a Robloxot.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Roblox indítása…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Bejelentkezés ellenőrzése…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Sikertelen bejelentkezés. Próbálja újra, vagy adja hozzá a fiókot sütivel.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>A Roblox fut. Bezárja a másik fiókba való bejelentkezéshez?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Nem sikerült hozzáadni a fiókot.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Eltávolítja a(z) {0} fiókot? A mentett sütije törlődik erről a számítógépről.</value>
+  </data>
 </root>

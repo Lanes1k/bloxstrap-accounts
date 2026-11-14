@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
-    Title="Добавить аккаунт"
+    xmlns:resources="clr-namespace:Bloxstrap.Resources"
+    Title="{x:Static resources:Strings.Accounts_Add}"
     Width="560"
     MinWidth="0"
     MinHeight="0"
@@ -50,7 +51,7 @@
             KeyboardNavigation.TabNavigation="None" />
 
         <StackPanel Grid.Row="1" Margin="24,4,24,22">
-            <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+            <DockPanel Margin="0,0,0,20">
                 <Border
                     Width="46"
                     Height="46"
@@ -70,8 +71,9 @@
                     VerticalAlignment="Center"
                     FontSize="22"
                     FontWeight="SemiBold"
-                    Text="Добавить аккаунт" />
-            </StackPanel>
+                    Text="{x:Static resources:Strings.Accounts_Add}"
+                    TextWrapping="Wrap" />
+            </DockPanel>
 
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -105,11 +107,12 @@
                             Margin="0,14,0,2"
                             FontSize="15"
                             FontWeight="SemiBold"
-                            Text="Окно Roblox" />
+                            Text="{x:Static resources:Strings.Accounts_RobloxWindow}"
+                            TextWrapping="Wrap" />
                         <TextBlock
                             FontSize="12"
                             Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-                            Text="Войти или создать аккаунт"
+                            Text="{x:Static resources:Strings.Accounts_LoginOrCreate}"
                             TextWrapping="Wrap" />
                     </StackPanel>
                 </Border>
@@ -140,11 +143,11 @@
                             Margin="0,14,0,2"
                             FontSize="15"
                             FontWeight="SemiBold"
-                            Text="Cookie" />
+                            Text="{x:Static resources:Strings.Accounts_Cookie}" />
                         <TextBlock
                             FontSize="12"
                             Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-                            Text="Вставить .ROBLOSECURITY"
+                            Text="{x:Static resources:Strings.Accounts_PasteCookie}"
                             TextWrapping="Wrap" />
                     </StackPanel>
                 </Border>
@@ -157,7 +160,7 @@
                 <TextBlock
                     FontSize="13"
                     FontWeight="Medium"
-                    Text="Cookie аккаунта" />
+                    Text="{x:Static resources:Strings.Accounts_AccountCookie}" />
                 <Grid Margin="0,6,0,0">
                     <TextBox
                         x:Name="CookieTextBox"
@@ -165,6 +168,7 @@
                         Padding="8,6"
                         AcceptsReturn="True"
                         FontFamily="Consolas"
+                        FlowDirection="LeftToRight"
                         FontSize="12"
                         TextChanged="OnCookieTextChanged"
                         TextWrapping="Wrap"
@@ -177,7 +181,8 @@
                         FontSize="12"
                         Foreground="{DynamicResource TextFillColorTertiaryBrush}"
                         IsHitTestVisible="False"
-                        Text="Вставь сюда значение .ROBLOSECURITY" />
+                        Text="{x:Static resources:Strings.Accounts_CookiePlaceholder}"
+                        TextWrapping="Wrap" />
                 </Grid>
                 <TextBlock
                     x:Name="CookieErrorText"
@@ -190,14 +195,14 @@
                     HorizontalAlignment="Right"
                     Orientation="Horizontal">
                     <ui:Button
-                        Content="Отмена"
+                        Content="{x:Static resources:Strings.Common_Cancel}"
                         Click="OnCancelClicked" />
                     <ui:Button
                         x:Name="AddCookieButton"
                         Margin="8,0,0,0"
                         Appearance="Primary"
                         Click="OnAddCookieClicked"
-                        Content="Добавить" />
+                        Content="{x:Static resources:Strings.Common_AddSingle}" />
                 </StackPanel>
             </StackPanel>
 
@@ -205,7 +210,7 @@
                 x:Name="RobloxWindowPanel"
                 Margin="0,16,0,0"
                 Visibility="Collapsed">
-                <StackPanel Orientation="Horizontal">
+                <DockPanel>
                     <ui:ProgressRing
                         x:Name="WindowProgress"
                         Width="20"
@@ -217,15 +222,15 @@
                         Margin="10,0,0,0"
                         VerticalAlignment="Center"
                         FontSize="13"
-                        Text="Запускаем Roblox…"
+                        Text="{x:Static resources:Strings.Accounts_Starting}"
                         TextWrapping="Wrap" />
-                </StackPanel>
+                </DockPanel>
                 <StackPanel
                     Margin="0,12,0,0"
                     HorizontalAlignment="Right"
                     Orientation="Horizontal">
                     <ui:Button
-                        Content="Отмена"
+                        Content="{x:Static resources:Strings.Common_Cancel}"
                         Click="OnCancelWindowClicked" />
                 </StackPanel>
             </StackPanel>
@@ -234,7 +239,7 @@
                 Margin="0,18,0,0"
                 FontSize="12"
                 Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-                Text="Вход в окне удобнее: лаунчер сам заберёт cookie после логина. Cookie хранится зашифрованным на этом ПК."
+                Text="{x:Static resources:Strings.Accounts_SecurityNote}"
                 TextWrapping="Wrap" />
         </StackPanel>
     </Grid>

@@ -1407,4 +1407,85 @@ Používám motiv {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Vzhledem k [aktualizaci seznamu povolených Fast Flagů]({0}), nebude mít většina vlastních Fast Flagů žádný vliv na Roblox klient.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Účet</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Účty</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Spusťte více účtů, každý ve vlastním okně Roblox.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Spustit</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Otevřít dalšího klienta Roblox s tímto účtem</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Odebrat účet</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Zatím žádné účty</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Přidejte účet přes Roblox nebo pomocí cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Přidat účet</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Okno Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Přihlásit se nebo vytvořit účet</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Vložit .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Cookie účtu</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Vložte sem celé cookie .ROBLOSECURITY.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Po přihlášení přes Roblox spouštěč získá cookie. Uložená cookie jsou v tomto počítači šifrována.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Aktuální přihlášení Roblox</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie je neplatné, neúplné nebo vypršelo. Přidejte účet znovu s platným cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Nelze se připojit k Roblox. Zkontrolujte připojení a zkuste to znovu.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Roblox nelze spustit. Ověřte, že je nainstalován.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Před přihlášením k jinému účtu zavřete Roblox.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Spouštění Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Ověřování přihlášení…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Přihlášení se nezdařilo. Zkuste to znovu nebo přidejte účet pomocí cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox je spuštěn. Zavřít jej pro přihlášení k jinému účtu?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Účet nelze přidat.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Odebrat účet {0}? Jeho uložené cookie bude z tohoto počítače odstraněno.</value>
+  </data>
 </root>

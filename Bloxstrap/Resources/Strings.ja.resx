@@ -1415,4 +1415,85 @@ Robloxのアプリファイルを使用している可能性のあるアプリ�
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>FastFlagが[ホワイトリスト制に変更]({0})されたため、Roblox PlayerではほとんどのFastFlagが動作しません。</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>複数のアカウントを、それぞれ別のRobloxウィンドウで起動します。</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>起動</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>このアカウントで別のRobloxクライアントを開く</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>アカウントを削除</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>アカウントがありません</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>RobloxへのログインまたはCookieでアカウントを追加してください。</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>アカウントを追加</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Robloxウィンドウ</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>ログインまたはアカウント作成</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>.ROBLOSECURITYを貼り付け</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>アカウントのCookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>.ROBLOSECURITYのCookie全体をここに貼り付けてください。</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Robloxでのログイン後、ランチャーがCookieを取得します。保存されるCookieはこのPC上で暗号化されます。</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>現在のRobloxログイン</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookieが無効、不完全、または期限切れです。有効なCookieでアカウントを追加し直してください。</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Robloxに接続できませんでした。接続を確認して再試行してください。</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Robloxを起動できませんでした。インストールされているか確認してください。</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>別のアカウントにログインする前にRobloxを閉じてください。</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Robloxを起動中…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>ログインを確認中…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>ログインに失敗しました。再試行するか、Cookieでアカウントを追加してください。</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Robloxが起動しています。別のアカウントにログインするために閉じますか？</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>アカウントを追加できませんでした。</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>アカウント「{0}」を削除しますか？保存されたCookieがこのPCから削除されます。</value>
+  </data>
 </root>

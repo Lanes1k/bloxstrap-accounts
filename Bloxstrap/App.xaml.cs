@@ -21,10 +21,11 @@ namespace Bloxstrap
         public const string ProjectName = "Bloxstrap";
 #endif
         public const string ProjectOwner = "Bloxstrap";
-        public const string ProjectRepository = "bloxstraplabs/bloxstrap";
-        public const string ProjectDownloadLink = "https://bloxstraplabs.com";
+        public const string ProjectRepository = "Lanes1k/bloxstrap-accounts";
+        public const string ProjectRepositoryLink = "https://github.com/" + ProjectRepository;
+        public const string ProjectDownloadLink = ProjectRepositoryLink + "/releases";
         public const string ProjectHelpLink = "https://bloxstraplabs.com/wiki/help/";
-        public const string ProjectSupportLink = "https://github.com/bloxstraplabs/bloxstrap/issues/new";
+        public const string ProjectSupportLink = ProjectRepositoryLink + "/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";

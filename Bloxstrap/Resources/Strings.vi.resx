@@ -1409,4 +1409,85 @@ Mặc định về {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Do [Cập nhật danh sách Fast Flag được cho phép]({0}), đa số Fast Flag sẽ không ảnh hưởng tới Roblox.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Chạy nhiều tài khoản, mỗi tài khoản trong một cửa sổ Roblox riêng.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Khởi chạy</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Mở thêm một ứng dụng Roblox bằng tài khoản này</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Xóa tài khoản</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Chưa có tài khoản</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Thêm tài khoản qua Roblox hoặc bằng cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Thêm tài khoản</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Cửa sổ Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Đăng nhập hoặc tạo tài khoản</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Dán .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Cookie tài khoản</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Dán toàn bộ cookie .ROBLOSECURITY vào đây.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Sau khi đăng nhập qua Roblox, trình khởi chạy sẽ lấy cookie. Cookie đã lưu được mã hóa trên máy tính này.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Phiên đăng nhập Roblox hiện tại</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie không hợp lệ, không đầy đủ hoặc đã hết hạn. Thêm lại tài khoản bằng cookie hợp lệ.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Không thể kết nối với Roblox. Kiểm tra kết nối và thử lại.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Không thể khởi chạy Roblox. Hãy đảm bảo Roblox đã được cài đặt.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Đóng Roblox trước khi đăng nhập tài khoản khác.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Đang khởi động Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Đang xác minh đăng nhập…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Đăng nhập thất bại. Thử lại hoặc thêm tài khoản bằng cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox đang chạy. Đóng để đăng nhập tài khoản khác?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Không thể thêm tài khoản.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Xóa tài khoản {0}? Cookie đã lưu của tài khoản sẽ bị xóa khỏi máy tính này.</value>
+  </data>
 </root>

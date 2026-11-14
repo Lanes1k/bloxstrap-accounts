@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
-    Title="Аккаунты"
+    xmlns:resources="clr-namespace:Bloxstrap.Resources"
+    Title="{x:Static resources:Strings.Accounts_Title}"
     Width="620"
     MinWidth="0"
     MinHeight="0"
@@ -34,19 +35,19 @@
             CanMaximize="False"
             ShowMaximize="False"
             ShowMinimize="False"
-            Title="Аккаунты"
+            Title="{x:Static resources:Strings.Accounts_Title}"
             KeyboardNavigation.TabNavigation="None" />
 
         <StackPanel Grid.Row="1" Margin="24,8,24,18">
             <TextBlock
                 FontSize="24"
                 FontWeight="Medium"
-                Text="Аккаунты" />
+                Text="{x:Static resources:Strings.Accounts_Title}" />
             <TextBlock
                 Margin="0,4,0,0"
                 FontSize="14"
                 Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-                Text="Запускай несколько аккаунтов одновременно — у каждого будет своё окно Roblox."
+                Text="{x:Static resources:Strings.Accounts_Description}"
                 TextWrapping="Wrap" />
 
             <ScrollViewer
@@ -142,16 +143,16 @@
                                         Margin="0,0,6,0"
                                         VerticalAlignment="Center"
                                         Click="OnLaunchAccountClicked"
-                                        Content="Запустить"
+                                        Content="{x:Static resources:Strings.Accounts_Launch}"
                                         Icon="Play24"
-                                        ToolTip="Запустить ещё один Roblox с этим аккаунтом" />
+                                        ToolTip="{x:Static resources:Strings.Accounts_LaunchTooltip}" />
 
                                     <ui:Button
                                         Grid.Column="4"
                                         VerticalAlignment="Center"
                                         Click="OnDeleteAccountClicked"
                                         Icon="Delete24"
-                                        ToolTip="Удалить аккаунт" />
+                                        ToolTip="{x:Static resources:Strings.Accounts_Delete}" />
                                 </Grid>
                             </Border>
                         </DataTemplate>
@@ -173,13 +174,15 @@
                         HorizontalAlignment="Center"
                         FontSize="14"
                         FontWeight="Medium"
-                        Text="Пока нет ни одного аккаунта" />
+                        Text="{x:Static resources:Strings.Accounts_Empty}"
+                        TextWrapping="Wrap"
+                        TextAlignment="Center" />
                     <TextBlock
                         Margin="0,4,0,0"
                         HorizontalAlignment="Center"
                         FontSize="12"
                         Foreground="{DynamicResource TextFillColorTertiaryBrush}"
-                        Text="Добавь аккаунт через окно Roblox или вставь cookie."
+                        Text="{x:Static resources:Strings.Accounts_EmptyDescription}"
                         TextAlignment="Center"
                         TextWrapping="Wrap" />
                 </StackPanel>
@@ -190,21 +193,21 @@
             Grid.Row="2"
             Padding="24,14"
             Background="{DynamicResource SolidBackgroundFillColorSecondaryBrush}">
-            <StackPanel
+            <WrapPanel
                 HorizontalAlignment="Right"
                 Orientation="Horizontal">
                 <ui:Button
                     MinWidth="150"
                     Appearance="Primary"
                     Click="OnAddAccountClicked"
-                    Content="Добавить аккаунт"
+                    Content="{x:Static resources:Strings.Accounts_Add}"
                     Icon="Add24" />
                 <ui:Button
                     MinWidth="100"
                     Margin="8,0,0,0"
                     Click="OnCloseClicked"
-                    Content="Закрыть" />
-            </StackPanel>
+                    Content="{x:Static resources:Strings.Common_Close}" />
+            </WrapPanel>
         </Border>
     </Grid>
 </base:WpfUiWindow>

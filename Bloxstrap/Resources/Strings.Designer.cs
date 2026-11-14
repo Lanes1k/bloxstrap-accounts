@@ -63,6 +63,168 @@ namespace Bloxstrap.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Licenses.
         /// </summary>
+        public static string Accounts_Account {
+            get {
+                return ResourceManager.GetString("Accounts.Account", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Title {
+            get {
+                return ResourceManager.GetString("Accounts.Title", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Description {
+            get {
+                return ResourceManager.GetString("Accounts.Description", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Launch {
+            get {
+                return ResourceManager.GetString("Accounts.Launch", resourceCulture);
+            }
+        }
+
+        public static string Accounts_LaunchTooltip {
+            get {
+                return ResourceManager.GetString("Accounts.LaunchTooltip", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Delete {
+            get {
+                return ResourceManager.GetString("Accounts.Delete", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Empty {
+            get {
+                return ResourceManager.GetString("Accounts.Empty", resourceCulture);
+            }
+        }
+
+        public static string Accounts_EmptyDescription {
+            get {
+                return ResourceManager.GetString("Accounts.EmptyDescription", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Add {
+            get {
+                return ResourceManager.GetString("Accounts.Add", resourceCulture);
+            }
+        }
+
+        public static string Accounts_RobloxWindow {
+            get {
+                return ResourceManager.GetString("Accounts.RobloxWindow", resourceCulture);
+            }
+        }
+
+        public static string Accounts_LoginOrCreate {
+            get {
+                return ResourceManager.GetString("Accounts.LoginOrCreate", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Cookie {
+            get {
+                return ResourceManager.GetString("Accounts.Cookie", resourceCulture);
+            }
+        }
+
+        public static string Accounts_PasteCookie {
+            get {
+                return ResourceManager.GetString("Accounts.PasteCookie", resourceCulture);
+            }
+        }
+
+        public static string Accounts_AccountCookie {
+            get {
+                return ResourceManager.GetString("Accounts.AccountCookie", resourceCulture);
+            }
+        }
+
+        public static string Accounts_CookiePlaceholder {
+            get {
+                return ResourceManager.GetString("Accounts.CookiePlaceholder", resourceCulture);
+            }
+        }
+
+        public static string Accounts_SecurityNote {
+            get {
+                return ResourceManager.GetString("Accounts.SecurityNote", resourceCulture);
+            }
+        }
+
+        public static string Accounts_CurrentLogin {
+            get {
+                return ResourceManager.GetString("Accounts.CurrentLogin", resourceCulture);
+            }
+        }
+
+        public static string Accounts_InvalidCookie {
+            get {
+                return ResourceManager.GetString("Accounts.InvalidCookie", resourceCulture);
+            }
+        }
+
+        public static string Accounts_NetworkError {
+            get {
+                return ResourceManager.GetString("Accounts.NetworkError", resourceCulture);
+            }
+        }
+
+        public static string Accounts_LaunchError {
+            get {
+                return ResourceManager.GetString("Accounts.LaunchError", resourceCulture);
+            }
+        }
+
+        public static string Accounts_CloseRoblox {
+            get {
+                return ResourceManager.GetString("Accounts.CloseRoblox", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Starting {
+            get {
+                return ResourceManager.GetString("Accounts.Starting", resourceCulture);
+            }
+        }
+
+        public static string Accounts_Verifying {
+            get {
+                return ResourceManager.GetString("Accounts.Verifying", resourceCulture);
+            }
+        }
+
+        public static string Accounts_LoginError {
+            get {
+                return ResourceManager.GetString("Accounts.LoginError", resourceCulture);
+            }
+        }
+
+        public static string Accounts_CloseRobloxConfirm {
+            get {
+                return ResourceManager.GetString("Accounts.CloseRobloxConfirm", resourceCulture);
+            }
+        }
+
+        public static string Accounts_AddError {
+            get {
+                return ResourceManager.GetString("Accounts.AddError", resourceCulture);
+            }
+        }
+
+        public static string Accounts_DeleteConfirm {
+            get {
+                return ResourceManager.GetString("Accounts.DeleteConfirm", resourceCulture);
+            }
+        }
+
         public static string About_Licenses_Title {
             get {
                 return ResourceManager.GetString("About.Licenses.Title", resourceCulture);

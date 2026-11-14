@@ -1406,4 +1406,85 @@
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>به دلیل [بروزرسانی لیست سفید فست فلگ ها]({0})، بیشتر فست فلگ های سفارشی دیگر روی روبلاکس پلیر هیچ تأثیری نخواهند داشت.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>حساب</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>حساب‌ها</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>چند حساب را هرکدام در پنجره‌ای جداگانه از Roblox اجرا کنید.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>اجرا</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>باز کردن یک برنامه دیگر Roblox با این حساب</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>حذف حساب</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>هنوز حسابی وجود ندارد</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>از طریق Roblox یا با کوکی یک حساب اضافه کنید.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>افزودن حساب</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>پنجره Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>ورود یا ساخت حساب</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>کوکی</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>جای‌گذاری .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>کوکی حساب</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>کوکی کامل .ROBLOSECURITY را اینجا جای‌گذاری کنید.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>پس از ورود از طریق Roblox، راه‌انداز کوکی را دریافت می‌کند. کوکی‌های ذخیره‌شده در این رایانه رمزگذاری می‌شوند.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>ورود فعلی Roblox</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>کوکی نامعتبر، ناقص یا منقضی شده است. حساب را با یک کوکی معتبر دوباره اضافه کنید.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>اتصال به Roblox ممکن نشد. اتصال را بررسی و دوباره تلاش کنید.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>اجرای Roblox ممکن نشد. مطمئن شوید نصب شده است.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>پیش از ورود به حساب دیگر، Roblox را ببندید.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>در حال اجرای Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>در حال تأیید ورود…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>ورود ناموفق بود. دوباره تلاش کنید یا حساب را با کوکی اضافه کنید.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox در حال اجرا است. برای ورود به حساب دیگر بسته شود؟</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>افزودن حساب ممکن نشد.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>حساب {0} حذف شود؟ کوکی ذخیره‌شده آن از این رایانه حذف خواهد شد.</value>
+  </data>
 </root>

@@ -126,4 +126,85 @@
   <data name="About.Translators.Description" xml:space="preserve">
     <value>All of Bloxstrap's translations are crowdsourced through [Crowdin]({0}). Everyone listed here are people who generously volunteered their time and effort to help localize Bloxstrap. A massive thank you to everyone here!</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Run multiple accounts, each in its own Roblox window.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Open another Roblox client with this account</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Remove account</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>No accounts yet</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Add an account through Roblox or with a cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Add account</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox window</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Sign in or create an account</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Paste .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Account cookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Paste the full .ROBLOSECURITY cookie here.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>After you sign in through Roblox, the launcher captures the cookie. Saved cookies are encrypted on this PC.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Current Roblox login</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>The cookie is invalid, incomplete, or expired. Add the account again with a valid cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Could not connect to Roblox. Check your connection and try again.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Could not launch Roblox. Make sure it is installed.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Close Roblox before signing in to another account.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Starting Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Verifying sign-in…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Sign-in failed. Try again or add the account with a cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox is running. Close it to sign in to another account?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Could not add the account.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Remove account {0}? Its saved cookie will be deleted from this PC.</value>
+  </data>
 </root>

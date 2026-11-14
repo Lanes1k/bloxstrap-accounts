@@ -1401,4 +1401,85 @@ Bloxstrap ถูกติดตั้งที่ "{1}"</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>เนื่องจาก[อัปเดตไวต์ลิสต์ Fast Flag]({0}) Fast Flags ส่วนใหญ่จะไม่มีผลอะไรเลย</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>บัญชี</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>บัญชี</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>เปิดหลายบัญชี โดยแต่ละบัญชีมีหน้าต่าง Roblox ของตัวเอง</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>เปิดไคลเอนต์ Roblox อีกตัวด้วยบัญชีนี้</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>ลบบัญชี</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>ยังไม่มีบัญชี</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>เพิ่มบัญชีผ่าน Roblox หรือด้วยคุกกี้</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>เพิ่มบัญชี</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>หน้าต่าง Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>เข้าสู่ระบบหรือสร้างบัญชี</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>คุกกี้</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>วาง .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>คุกกี้ของบัญชี</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>วางคุกกี้ .ROBLOSECURITY แบบเต็มที่นี่</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>หลังเข้าสู่ระบบผ่าน Roblox ตัวเปิดจะรับคุกกี้ คุกกี้ที่บันทึกไว้จะถูกเข้ารหัสบนพีซีเครื่องนี้</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>การเข้าสู่ระบบ Roblox ปัจจุบัน</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>คุกกี้ไม่ถูกต้อง ไม่ครบถ้วน หรือหมดอายุ โปรดเพิ่มบัญชีอีกครั้งด้วยคุกกี้ที่ใช้ได้</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>เชื่อมต่อกับ Roblox ไม่ได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>เปิด Roblox ไม่ได้ โปรดตรวจสอบว่าติดตั้งแล้ว</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>ปิด Roblox ก่อนเข้าสู่ระบบบัญชีอื่น</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>กำลังเริ่ม Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>กำลังตรวจสอบการเข้าสู่ระบบ…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>เข้าสู่ระบบไม่สำเร็จ โปรดลองอีกครั้งหรือเพิ่มบัญชีด้วยคุกกี้</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox กำลังทำงาน ต้องการปิดเพื่อเข้าสู่ระบบบัญชีอื่นหรือไม่?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>เพิ่มบัญชีไม่ได้</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>ลบบัญชี {0} หรือไม่? คุกกี้ที่บันทึกไว้จะถูกลบออกจากพีซีเครื่องนี้</value>
+  </data>
 </root>

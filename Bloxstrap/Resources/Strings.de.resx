@@ -1407,4 +1407,85 @@ Es wurde automatisch {1} ausgewählt.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Wegen des [Fast Flag allowlist update]({0}) von Roblox haben die meisten custom Fast Flags keinen Effekt im Roblox client.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Konten</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Mehrere Konten gleichzeitig nutzen, jedes in einem eigenen Roblox-Fenster.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Starten</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Einen weiteren Roblox-Client mit diesem Konto öffnen</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Konto entfernen</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Noch keine Konten</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Ein Konto über Roblox oder mit einem Cookie hinzufügen.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Konto hinzufügen</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox-Fenster</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Anmelden oder Konto erstellen</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>.ROBLOSECURITY einfügen</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Konto-Cookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Hier das vollständige .ROBLOSECURITY-Cookie einfügen.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Nach der Anmeldung über Roblox erfasst der Launcher das Cookie. Gespeicherte Cookies werden auf diesem PC verschlüsselt.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Aktuelle Roblox-Anmeldung</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Das Cookie ist ungültig, unvollständig oder abgelaufen. Das Konto mit einem gültigen Cookie erneut hinzufügen.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Verbindung zu Roblox fehlgeschlagen. Verbindung prüfen und erneut versuchen.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Roblox konnte nicht gestartet werden. Prüfen, ob es installiert ist.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Roblox vor der Anmeldung bei einem anderen Konto schließen.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Roblox wird gestartet…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Anmeldung wird überprüft…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Anmeldung fehlgeschlagen. Erneut versuchen oder das Konto mit einem Cookie hinzufügen.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox läuft. Zum Anmelden bei einem anderen Konto schließen?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Das Konto konnte nicht hinzugefügt werden.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Konto {0} entfernen? Das gespeicherte Cookie wird von diesem PC gelöscht.</value>
+  </data>
 </root>

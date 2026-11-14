@@ -1404,4 +1404,85 @@
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>بسبب [تحديث قائمة العلم السريع المسموح به]({0})، معظم الأعلام السريعة المخصصة لن يكون لها أي تأثير على Roblox.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>الحسابات</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>شغّل عدة حسابات، كل منها في نافذة Roblox مستقلة.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>فتح عميل Roblox آخر بهذا الحساب</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>إزالة الحساب</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>لا توجد حسابات بعد</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>أضف حسابًا عبر Roblox أو باستخدام ملف تعريف ارتباط.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>إضافة حساب</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>نافذة Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>تسجيل الدخول أو إنشاء حساب</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>ملف تعريف الارتباط</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>لصق .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>ملف تعريف ارتباط الحساب</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>الصق ملف تعريف الارتباط .ROBLOSECURITY كاملًا هنا.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>بعد تسجيل الدخول عبر Roblox، يحصل المشغّل على ملف تعريف الارتباط. تُشفّر ملفات تعريف الارتباط المحفوظة على هذا الكمبيوتر.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>تسجيل دخول Roblox الحالي</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>ملف تعريف الارتباط غير صالح أو غير مكتمل أو منتهي الصلاحية. أضف الحساب مجددًا بملف صالح.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>تعذر الاتصال بـ Roblox. تحقق من الاتصال وحاول مجددًا.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>تعذر تشغيل Roblox. تأكد من تثبيته.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>أغلق Roblox قبل تسجيل الدخول إلى حساب آخر.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>جارٍ تشغيل Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>جارٍ التحقق من تسجيل الدخول…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>فشل تسجيل الدخول. حاول مجددًا أو أضف الحساب باستخدام ملف تعريف ارتباط.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox قيد التشغيل. هل تريد إغلاقه لتسجيل الدخول إلى حساب آخر؟</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>تعذرت إضافة الحساب.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>هل تريد إزالة الحساب {0}؟ سيُحذف ملف تعريف الارتباط المحفوظ من هذا الكمبيوتر.</value>
+  </data>
 </root>

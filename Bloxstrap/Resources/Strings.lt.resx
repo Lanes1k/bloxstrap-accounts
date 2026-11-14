@@ -1407,4 +1407,85 @@ Nustatomas numatytasis į „{1}“.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Dėl [„Fast Flag“ leidžiamojo sąrašo naujinimo]({0}) dauguma pasirinktinių „Fast Flag“ gairelių neturės jokio poveikio „Roblox“ žaidimo leistuvei.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Paskyra</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Paskyros</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Paleiskite kelias paskyras, kiekvieną atskirame Roblox lange.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Paleisti</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Atidaryti kitą Roblox klientą su šia paskyra</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Pašalinti paskyrą</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Paskyrų dar nėra</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Pridėkite paskyrą per Roblox arba naudodami slapuką.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Pridėti paskyrą</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox langas</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Prisijungti arba sukurti paskyrą</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Slapukas</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Įklijuoti .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Paskyros slapukas</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Čia įklijuokite visą .ROBLOSECURITY slapuką.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Prisijungus per Roblox, paleidimo programa gauna slapuką. Išsaugoti slapukai šiame kompiuteryje užšifruojami.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Dabartinis Roblox prisijungimas</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Slapukas netinkamas, nepilnas arba nebegalioja. Pridėkite paskyrą iš naujo su galiojančiu slapuku.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Nepavyko prisijungti prie Roblox. Patikrinkite ryšį ir bandykite dar kartą.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Nepavyko paleisti Roblox. Įsitikinkite, kad jis įdiegtas.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Prieš prisijungdami prie kitos paskyros uždarykite Roblox.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Paleidžiamas Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Tikrinamas prisijungimas…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Prisijungti nepavyko. Bandykite dar kartą arba pridėkite paskyrą naudodami slapuką.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox veikia. Uždaryti, kad galėtumėte prisijungti prie kitos paskyros?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Nepavyko pridėti paskyros.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Pašalinti paskyrą {0}? Jos išsaugotas slapukas bus ištrintas iš šio kompiuterio.</value>
+  </data>
 </root>

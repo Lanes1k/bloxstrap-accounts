@@ -1405,4 +1405,85 @@ Prebacivanje na zadani {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Zbog [ažuriranja o popisu dozvoljenih Fast Flag-ova]({0}), većina prilagođenih Fast Flag-ova neće imati učinka na Roblox pokretač.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Račun</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Računi</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Pokrenite više računa, svaki u svom Roblox prozoru.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Pokreni</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Otvori još jedan Roblox klijent s ovim računom</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Ukloni račun</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Još nema računa</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Dodajte račun putem Robloxa ili kolačića.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Dodaj račun</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox prozor</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Prijavite se ili izradite račun</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Kolačić</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Zalijepi .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Kolačić računa</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Ovdje zalijepite cijeli .ROBLOSECURITY kolačić.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Nakon prijave putem Robloxa pokretač preuzima kolačić. Spremljeni kolačići šifriraju se na ovom računalu.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Trenutna Roblox prijava</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Kolačić nije valjan, nepotpun je ili je istekao. Ponovno dodajte račun s valjanim kolačićem.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Povezivanje s Robloxom nije uspjelo. Provjerite vezu i pokušajte ponovno.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Roblox se ne može pokrenuti. Provjerite je li instaliran.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Zatvorite Roblox prije prijave na drugi račun.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Pokretanje Robloxa…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Provjera prijave…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Prijava nije uspjela. Pokušajte ponovno ili dodajte račun kolačićem.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox je pokrenut. Zatvoriti ga za prijavu na drugi račun?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Račun se ne može dodati.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Ukloniti račun {0}? Njegov spremljeni kolačić bit će izbrisan s ovog računala.</value>
+  </data>
 </root>

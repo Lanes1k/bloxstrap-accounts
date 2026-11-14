@@ -1407,4 +1407,85 @@ Setat implicit la {1}.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>Datorită [actualizării listei de permisiuni Fast Flag]({0}), majoritatea Fast Flag-urilor personalizate nu vor mai avea efect.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Cont</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Conturi</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Rulează mai multe conturi, fiecare în propria fereastră Roblox.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Lansează</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Deschide un alt client Roblox cu acest cont</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Elimină contul</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Niciun cont încă</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Adaugă un cont prin Roblox sau cu un cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Adaugă cont</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Fereastră Roblox</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Autentifică-te sau creează un cont</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Lipește .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Cookie-ul contului</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Lipește aici cookie-ul .ROBLOSECURITY complet.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>După autentificarea prin Roblox, lansatorul preia cookie-ul. Cookie-urile salvate sunt criptate pe acest PC.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Autentificarea Roblox curentă</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookie-ul este invalid, incomplet sau expirat. Adaugă contul din nou cu un cookie valid.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Conectarea la Roblox a eșuat. Verifică conexiunea și încearcă din nou.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Roblox nu a putut fi lansat. Verifică dacă este instalat.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Închide Roblox înainte de a te autentifica în alt cont.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Se pornește Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Se verifică autentificarea…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Autentificare eșuată. Încearcă din nou sau adaugă contul cu un cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox rulează. Îl închizi pentru a te autentifica în alt cont?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Contul nu a putut fi adăugat.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Elimini contul {0}? Cookie-ul salvat va fi șters de pe acest PC.</value>
+  </data>
 </root>

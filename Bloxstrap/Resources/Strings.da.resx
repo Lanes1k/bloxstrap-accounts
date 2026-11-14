@@ -1406,4 +1406,85 @@ Luk alle programmer, der kan bruge Roblox's filer, og relancering.</value>
   <data name="Menu.FastFlagEditor.AllowlistInformation" xml:space="preserve">
     <value>På grund af [Fast Flag tilladelsesliste opdateringen]({0}), har de fleste tilpassede Fast Flags ikke nogen effekt på Roblox playeren.</value>
   </data>
+  <data name="Accounts.Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="Accounts.Title" xml:space="preserve">
+    <value>Konti</value>
+  </data>
+  <data name="Accounts.Description" xml:space="preserve">
+    <value>Kør flere konti, hver i sit eget Roblox-vindue.</value>
+  </data>
+  <data name="Accounts.Launch" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Accounts.LaunchTooltip" xml:space="preserve">
+    <value>Åbn en anden Roblox-klient med denne konto</value>
+  </data>
+  <data name="Accounts.Delete" xml:space="preserve">
+    <value>Fjern konto</value>
+  </data>
+  <data name="Accounts.Empty" xml:space="preserve">
+    <value>Ingen konti endnu</value>
+  </data>
+  <data name="Accounts.EmptyDescription" xml:space="preserve">
+    <value>Tilføj en konto via Roblox eller med en cookie.</value>
+  </data>
+  <data name="Accounts.Add" xml:space="preserve">
+    <value>Tilføj konto</value>
+  </data>
+  <data name="Accounts.RobloxWindow" xml:space="preserve">
+    <value>Roblox-vindue</value>
+  </data>
+  <data name="Accounts.LoginOrCreate" xml:space="preserve">
+    <value>Log ind eller opret en konto</value>
+  </data>
+  <data name="Accounts.Cookie" xml:space="preserve">
+    <value>Cookie</value>
+  </data>
+  <data name="Accounts.PasteCookie" xml:space="preserve">
+    <value>Indsæt .ROBLOSECURITY</value>
+  </data>
+  <data name="Accounts.AccountCookie" xml:space="preserve">
+    <value>Kontoens cookie</value>
+  </data>
+  <data name="Accounts.CookiePlaceholder" xml:space="preserve">
+    <value>Indsæt hele .ROBLOSECURITY-cookien her.</value>
+  </data>
+  <data name="Accounts.SecurityNote" xml:space="preserve">
+    <value>Efter login via Roblox henter startprogrammet cookien. Gemte cookies krypteres på denne pc.</value>
+  </data>
+  <data name="Accounts.CurrentLogin" xml:space="preserve">
+    <value>Aktuelt Roblox-login</value>
+  </data>
+  <data name="Accounts.InvalidCookie" xml:space="preserve">
+    <value>Cookien er ugyldig, ufuldstændig eller udløbet. Tilføj kontoen igen med en gyldig cookie.</value>
+  </data>
+  <data name="Accounts.NetworkError" xml:space="preserve">
+    <value>Kunne ikke oprette forbindelse til Roblox. Kontrollér forbindelsen, og prøv igen.</value>
+  </data>
+  <data name="Accounts.LaunchError" xml:space="preserve">
+    <value>Kunne ikke starte Roblox. Kontrollér, at det er installeret.</value>
+  </data>
+  <data name="Accounts.CloseRoblox" xml:space="preserve">
+    <value>Luk Roblox, før du logger ind på en anden konto.</value>
+  </data>
+  <data name="Accounts.Starting" xml:space="preserve">
+    <value>Starter Roblox…</value>
+  </data>
+  <data name="Accounts.Verifying" xml:space="preserve">
+    <value>Bekræfter login…</value>
+  </data>
+  <data name="Accounts.LoginError" xml:space="preserve">
+    <value>Login mislykkedes. Prøv igen, eller tilføj kontoen med en cookie.</value>
+  </data>
+  <data name="Accounts.CloseRobloxConfirm" xml:space="preserve">
+    <value>Roblox kører. Luk det for at logge ind på en anden konto?</value>
+  </data>
+  <data name="Accounts.AddError" xml:space="preserve">
+    <value>Kunne ikke tilføje kontoen.</value>
+  </data>
+  <data name="Accounts.DeleteConfirm" xml:space="preserve">
+    <value>Fjern kontoen {0}? Dens gemte cookie slettes fra denne pc.</value>
+  </data>
 </root>
