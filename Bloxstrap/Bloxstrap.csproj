@@ -75,7 +75,7 @@
   <ItemGroup>
     <AssemblyAttribute Include="Bloxstrap.Models.Attributes.BuildMetadataAttribute">
       <_Parameter1>$([System.DateTime]::UtcNow.ToString("s"))Z</_Parameter1>
-      <_Parameter2>$(COMPUTERNAME)\$(USERNAME)</_Parameter2>
+      <_Parameter2>Build</_Parameter2>
       <_Parameter3>$(CommitHash)</_Parameter3>
       <_Parameter4>$(CommitRef)</_Parameter4>
     </AssemblyAttribute>
